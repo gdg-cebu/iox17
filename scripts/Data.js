@@ -20,16 +20,6 @@ var Data = {
 				tw: ""
 			}
 		},
-		"albert-padin": {
-			name: "Albert Padin",
-			title: "Co-founder and CTO of Symph",
-			bio: "Albert is a developer and entrepreneur who's worked on consumer, enterprise, and government software products. He is the co-founder and CTO of Symph, a design, development, and startup studio. At Symph, he has architected and developed solutions for 500 Startups, Office of the President of the Philippines, and the World Bank.<br><br>Albert leads a diverse team of developers in creating software solutions. He ensures that the team's output is high quality and performs well at scale. Albert is also passionate about empowering startups and has been involved in the Philippine Startup Ecosystem, by facilitating and mentoring at Startup Weekends and other events.<br><br>Prior to that, Albert started SpellDial, directed plays, and mentored street children. He studied Information Technology at the Centre for International Education Global Colleges. He lives in Cebu City, Philippines with his wife. His interests include theatre, performing arts, and the non-trivial act of eradicating poverty.",
-			sm: {
-				gp: "https://plus.google.com/+AlbertPadin",
-				fb: "",
-				tw: ""
-			}
-		},
 		"benj-tupas": {
 			name: "Benj Tupas",
 			title: "Founder & CEO of FunBuddies",
@@ -219,10 +209,153 @@ var Data = {
 				fb: "",
 				tw: ""
 			}
-		}
+		},
+
+
+
+        "shad-roi": {
+            name: "Shad Roi de la Cruz",
+            title: "GDG Cebu Community Manager",
+            bio: "",
+            sm: {
+                gp: "",
+                fb: "",
+                tw: ""
+            }
+        },
+        "albert-padin": {
+			name: "Albert Padin",
+			title: "Co-founder and CTO of Symph",
+			bio: "Albert is a developer and entrepreneur who's worked on consumer, enterprise, and government software products. He is the co-founder and CTO of Symph, a design, development, and startup studio. At Symph, he has architected and developed solutions for 500 Startups, Office of the President of the Philippines, and the World Bank.<br><br>Albert leads a diverse team of developers in creating software solutions. He ensures that the team's output is high quality and performs well at scale. Albert is also passionate about empowering startups and has been involved in the Philippine Startup Ecosystem, by facilitating and mentoring at Startup Weekends and other events.<br><br>Prior to that, Albert started SpellDial, directed plays, and mentored street children. He studied Information Technology at the Centre for International Education Global Colleges. He lives in Cebu City, Philippines with his wife. His interests include theatre, performing arts, and the non-trivial act of eradicating poverty.",
+			sm: {
+				gp: "https://plus.google.com/+AlbertPadin",
+				fb: "",
+				tw: ""
+			}
+		},
+        "wayne-janaban": {
+            name: "Wayne Janaban",
+            title: "",
+            "bio": "",
+            sm: {
+                gp: "",
+                fb: "",
+                tw: ""
+            }
+        },
+        "chelle-gray": {
+            name: "Chelle Gray",
+            title: "",
+            bio: "",
+            sm: {
+                gp: "",
+                fb: "",
+                tw: ""
+            }
+        },
+        "team-darkfire": {
+            name: "Team DarkFire, USC",
+            title: "",
+            bio: "",
+            sm: {
+                gp: "",
+                fb: "",
+                tw: ""
+            }
+        },
+        "emmanuel-lodovice": {
+            name: "Emmanuel Lodovice",
+            title: "Web Developer, Channelfix",
+            bio: "",
+            sm: {
+                gp: "",
+                fb: "",
+                tw: ""
+            }
+        },
+        "inaki-villar": {
+            name: "Inaki Villar",
+            title: "Google Developer Expert",
+            bio: "",
+            sm: {
+                gp: "",
+                fb: "",
+                tw: ""
+            }
+        },
+        "romar-patindol": {
+            name: "Romar Patindol",
+            title: "",
+            bio: "",
+            sm: {
+                gp: "",
+                fb: "",
+                tw: ""
+            }
+        },
+        "julia-menchavez": {
+            name: "Julia Camille Menchavez",
+            title: "Web Developer, Channelfix",
+            bio: "",
+            sm: {
+                gp: "",
+                fb: "",
+                tw: ""
+            }
+        },
+        "arnelle-balane": {
+            name: "Arnelle Balane",
+            title: "Web Developer, Channelfix",
+            bio: "",
+            sm: {
+                gp: "",
+                fb: "",
+                tw: "ß"
+            }
+        },
+        "jeffrey-go": {
+            name: "Jeffrey Go",
+            title: "",
+            bio: "",
+            sm: {
+                gp: "",
+                fb: "",
+                tw: ""
+            }
+        },
+        "john-irvin-estiamba": {
+            name: "John Irvin Estiamba",
+            title: "",
+            bio: "",
+            sm: {
+                gp: "",
+                fb: "",
+                tw: ""
+            }
+        },
+        "brian-tan-seng": {
+            name: "Brian Tan Seng",
+            title: "",
+            bio: "",
+            sm: {
+                gp: "",
+                fb: "",
+                tw: ""
+            }
+        },
+        "mike-santos": {
+            name: "Mike Santos",
+            title: "",
+            bio: "",
+            sm: {
+                gp: "",
+                fb: "",
+                tw: ""
+            }
+        }
 	},
 	schedule: {
-		manila: {
+		cebu: {
 			"agenda": {
 				text: "Agenda",
 				desc: [
@@ -232,8 +365,8 @@ var Data = {
 							h: 1,
 							m: 0
 						},
-						id: "",
-						title: "Check-in",
+						id: "registration",
+						title: "Registration",
 						desc: "",
 						speakers: []
 					},
@@ -241,86 +374,75 @@ var Data = {
 						start: 9,
 						duration: {
 							h: 0,
-							m: 15
+							m: 5
 						},
-						id: "welcome-remarks",
-						title: "Welcome Remarks",
+						id: "national-anthem",
+						title: "National Anthem",
 						desc: "",
-						speakers: ["ralph-regalado"]
-					},
-					{
-						start: 9.15,
-						duration: {
-							h: 0,
-							m: 30
-						},
-						id: "keynote",
-						title: "Keynote",
-						desc: "",
-						speakers: ["jonathan-joson"]
+						speakers: []
 					},
 					{
 						start: 9.45,
 						duration: {
 							h: 0,
-							m: 15
+							m: 30
 						},
-						id: "io16-experience",
-						title: "Google I/O 2016 Experience",
+						id: "opening-keynote",
+						title: "Opening Keynote",
 						desc: "",
-						speakers: ["cristine-chen"]
+						speakers: ["shad-roi"]
 					},
 					{
-						start: 10,
+						start: 10.15,
 						duration: {
 							h: 0,
 							m: 45
 						},
-						id: "raspi",
-						title: "RasPi Bot + Vision API",
-						desc: "",
-						speakers: ["kazunori-sato"]
-					},
-					{
-						start: 10.45,
-						duration: {
-							h: 0,
-							m: 30
-						},
-						id: "new-android",
-						title: "What's new in Android?",
-						desc: "",
-						speakers: ["jomar-tigcal"]
-					},
-					{
-						start: 11.15,
-						duration: {
-							h: 0,
-							m: 30
-						},
-						id: "gcp",
-						title: "Google Cloud Platform",
+						id: "tech-keynote",
+						title: "Tech Keynote",
 						desc: "",
 						speakers: ["albert-padin"]
 					},
+                    {
+                        start: 11,
+                        duration: {
+                            h: 0,
+                            m: 20
+                        },
+                        id: "accenture-talk",
+                        title: "Accenture Talk",
+                        desc: "",
+                        speakers: ["wayne-janaban"]
+                    },
 					{
-						start: 11.45,
+						start: 11.20,
 						duration: {
 							h: 0,
-							m: 30
+							m: 20
 						},
-						id: "",
-						title: "Sponsors' Talk",
+						id: "asus-zenfone",
+						title: "Asus Zenfone",
 						desc: "",
-						speakers: []
+						speakers: ["mike-santos"]
 					},
 					{
-						start: 12.15,
+						start: 11.40,
 						duration: {
 							h: 0,
-							m: 45
+							m: 20
 						},
-						id: "",
+						id: "event-remarks",
+						title: "Event Remarks",
+						desc: "",
+						speakers: ["chelle-gray"]
+					},
+					{
+						start: 12,
+						duration: {
+							h: 1,
+							m: 0
+						},
+						id: "lunch",
 						title: "Lunch",
 						desc: "",
 						speakers: []
@@ -328,225 +450,143 @@ var Data = {
 					{
 						start: 13,
 						duration: {
-							h: 3,
-							m: 30
+							h: 4,
+							m: 0
 						},
-						id: "",
+						id: "breakout-sessions",
 						title: "Breakout Sessions",
 						desc: "",
 						speakers: []
-					},
-					{
-						start: 16.30,
-						duration: {
-							h: 0,
-							m: 30
-						},
-						id: "",
-						title: "Closing",
-						desc: "",
-						speakers: []
 					}
 				]
 			},
-			"talks": {
-				text: "Talks",
+			"hall-a": {
+				text: "Hall A",
 				desc: [
 					{
 						start: 13,
 						duration: {
 							h: 1,
-							m: 30
+							m: 0
+						},
+						id: "ml-tensorflow",
+						title: "Google Cloud Machine Learning x Tensorflow",
+						desc: "",
+						speakers: ["albert-padin"]
+					},
+					{
+						start: 14,
+						duration: {
+							h: 1,
+							m: 0
+						},
+						id: "api-ai",
+						title: "Building Apps using Google Assistant (API.AI)",
+						desc: "",
+						speakers: ["shad-roi"]
+					},
+					{
+						start: 15,
+						duration: {
+							h: 1,
+							m: 0
+						},
+						id: "vr-ar",
+						title: "VR + AR: Project Tango / Daydream",
+						desc: "",
+						speakers: ["team-darkfire"]
+					},
+                    {
+                        start: 16,
+                        duration: {
+                            h: 1,
+                            m: 0
+                        },
+                        id: "firebase",
+                        title: "Creating your first app with Firebase",
+                        desc: "",
+                        speakers: ["emmanuel-lodovice"]
+                    }
+				]
+			},
+			"hall-b": {
+				text: "Hall B",
+				desc: [
+					{
+						start: 13,
+						duration: {
+							h: 2,
+							m: 0
+						},
+						id: "android-kotlin",
+						title: "Introduction to Kotlin",
+						desc: "",
+						speakers: ["inaki-villar"]
+					},
+					{
+						start: 15,
+						duration: {
+							h: 2,
+							m: 0
+						},
+						id: "app-engine",
+						title: "App Engine Workshop",
+						desc: "",
+						speakers: ["romar-patindol"]
+					}
+				]
+			},
+			"hall-c": {
+				text: "Hall C",
+				desc: [
+					{
+						start: 13,
+						duration: {
+							h: 2,
+							m: 0
 						},
 						id: "pwa",
-						title: "Progressive Web App",
+						title: "Prograssive Web Apps",
 						desc: "",
-						speakers: ["yohan-totting"]
-					},
-					{
-						start: 14.30,
-						duration: {
-							h: 0,
-							m: 30
-						},
-						id: "",
-						title: "Break",
-						desc: "",
-						speakers: []
+						speakers: ["julia-menchavez", "arnelle-balane"]
 					},
 					{
 						start: 15,
 						duration: {
-							h: 1,
-							m: 30
-						},
-						id: "design-thinking",
-						title: "Design Thinking",
-						desc: "",
-						speakers: ["cristine-chen"]
-					}
-				]
-			},
-			"vr": {
-				text: "VR",
-				desc: [
-					{
-						start: 13,
-						duration: {
-							h: 1,
-							m: 30
-						},
-						id: "daydream",
-						title: "Google VR: Daydream",
-						desc: "",
-						speakers: ["cristopher-david"]
-					},
-					{
-						start: 14.30,
-						duration: {
-							h: 0,
-							m: 30
-						},
-						id: "",
-						title: "Break",
-						desc: "",
-						speakers: []
-					},
-					{
-						start: 15,
-						duration: {
-							h: 1,
-							m: 30
-						},
-						id: "google-vr",
-						title: "Codelabs: Google VR",
-						desc: "",
-						speakers: ["cristopher-david"]
-					}
-				]
-			},
-			"ai": {
-				text: "AI",
-				desc: [
-					{
-						start: 13,
-						duration: {
-							h: 1,
-							m: 30
-						},
-						id: "bigquery",
-						title: "Google BigQuery + Cloud DataLab",
-						desc: "",
-						speakers: ["ralph-regalado"]
-					},
-					{
-						start: 14.30,
-						duration: {
-							h: 0,
-							m: 30
-						},
-						id: "",
-						title: "Break",
-						desc: "",
-						speakers: []
-					},
-					{
-						start: 15,
-						duration: {
-							h: 1,
-							m: 30
-						},
-						id: "tensorflow",
-						title: "Codelabs: Tensor Flow",
-						desc: "",
-						speakers: ["ralph-regalado"]
-					}
-				]
-			},
-			"iot": {
-				text: "IoT",
-				desc: [
-					{
-						start: 13,
-						duration: {
-							h: 1,
-							m: 30
-						},
-						id: "firebase",
-						title: "Codelabs: Firebase for Web",
-						desc: "",
-						speakers: ["reymart-canuel"]
-					},
-					{
-						start: 14.30,
-						duration: {
-							h: 0,
-							m: 30
-						},
-						id: "",
-						title: "Break",
-						desc: "",
-						speakers: []
-					},
-					{
-						start: 15,
-						duration: {
-							h: 1,
-							m: 30
-						},
-						id: "iot-firebase",
-						title: "Codelabs: IoT + Firebase",
-						desc: "",
-						speakers: ["ralph-regalado"]
-					}
-				]
-			},
-			"web": {
-				text: "Web",
-				desc: [
-					{
-						start: 13,
-						duration: {
-							h: 0,
-							m: 45
-						},
-						id: "startups",
-						title: "Google Technologies for Startups",
-						desc: "",
-						speakers: ["benj-tupas"]
-					},
-					{
-						start: 13.45,
-						duration: {
-							h: 0,
-							m: 45
-						},
-						id: "machine-learning",
-						title: "Introduction to Machine Learning",
-						desc: "",
-						speakers: ["jordan-deja"]
-					},
-					{
-						start: 14.30,
-						duration: {
-							h: 0,
-							m: 30
-						},
-						id: "",
-						title: "Break",
-						desc: "",
-						speakers: []
-					},
-					{
-						start: 15,
-						duration: {
-							h: 1,
-							m: 30
+							h: 2,
+							m: 0
 						},
 						id: "polymer",
-						title: "Polymer",
+						title: "Getting started with Polymer",
 						desc: "",
-						speakers: ["toni-jan-keith-monserrat"]
+						speakers: ["jeffrey-go"]
+					}
+				]
+			},
+			"hall-d": {
+				text: "Hall D",
+				desc: [
+					{
+						start: 13,
+						duration: {
+							h: 2,
+							m: 0
+						},
+						id: "firebase-iot",
+						title: "Firebase x IoT with Arduino",
+						desc: "",
+						speakers: ["john-irvin-estiamba"]
+					},
+					{
+						start: 15,
+						duration: {
+							h: 2,
+							m: 0
+						},
+						id: "amp",
+						title: "Accelerated Mobile Pages",
+						desc: "",
+						speakers: ["brian-tan-seng"]
 					}
 				]
 			}

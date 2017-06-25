@@ -85,7 +85,7 @@ var App = {
 				} else speaker = "";
 				$section.find("table.schedule").append('<tr'+((s.id == "") ? "" : ' onclick="App.popup(\''+leg+'\', \''+action+'\', \''+s.id+'\')"')+'>'+
 					'<td><span>'+start+'</span>'+apm+'</td>'+
-					'<td><span>'+s.title+((s.id != "") ? '<i class="md-icon" style="margin-left: 12px">info_outline</i>' : "")+'</span><span>'+duration+speaker+'</span></td></tr>');
+					'<td><span>'+s.title+((s.id != "") ? '' : "")+'</span><span>'+duration+speaker+'</span></td></tr>');
 			}
 		}
 	},
@@ -144,7 +144,7 @@ var App = {
 				if(data.speakers.length != 0) {
 					var speakerindex = 0;
 					for(var j in data.speakers) {
-						if(speakerindex > 0) 
+						if(speakerindex > 0)
 							speaker += " & ";
 						var speakerProfile = Data.speaker[data.speakers[j]];
 						speaker += speakerProfile.name;
@@ -182,7 +182,7 @@ var App = {
 	},
 	resizePopup: function() {
 		$popup = $(".popup");
-		if(window.outerWidth < 700) 
+		if(window.outerWidth < 700)
 			$popup.width(window.outerWidth);
 		var width = $popup.outerWidth(), height = $popup.outerHeight();
 		$popup.css({
