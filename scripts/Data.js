@@ -20,19 +20,9 @@ var Data = {
 				tw: ""
 			}
 		},
-        "wayne-janaban": {
-            name: "Wayne Janaban",
-            title: "",
-            "bio": "",
-            sm: {
-                gp: "",
-                fb: "",
-                tw: ""
-            }
-        },
         "chelle-gray": {
             name: "Chelle Gray",
-            title: "",
+            title: "Regional Lead, Developers Relations at Google",
             bio: "",
             sm: {
                 gp: "",
@@ -53,7 +43,7 @@ var Data = {
         "emmanuel-lodovice": {
             name: "Emmanuel Lodovice",
             title: "Web Developer, Channelfix",
-            bio: "",
+            bio: "Emman is a fullstack developer from ChannelFix.",
             sm: {
                 gp: "",
                 fb: "",
@@ -63,7 +53,7 @@ var Data = {
         "inaki-villar": {
             name: "Inaki Villar",
             title: "Google Developer Expert",
-            bio: "",
+            bio: "Iñaki is a software engineer focused in mobility. He has been developing for Android from early versions and enjoy coding with a wide range of Android frameworks, libraries and applications.\n\nHe moves from Mallorca to Barcelona to work with android developing banks apps and focused in personal projects with tourism apps. From one year ago he is relocated in Ireland.\n\nHe's actively involved in the Android community, he began as a member of the GTUG/GDG Barcelona and then he co-created the GDG Mallorca. After he moved to Ireland he is an active member of GDG Dublin.",
             sm: {
                 gp: "",
                 fb: "",
@@ -73,7 +63,7 @@ var Data = {
         "romar-patindol": {
             name: "Romar Patindol",
             title: "",
-            bio: "",
+            bio: "Romar John Patindol is a Fullstack Developer and Technical Consultant at Symph.",
             sm: {
                 gp: "",
                 fb: "",
@@ -83,7 +73,7 @@ var Data = {
         "julia-menchavez": {
             name: "Julia Camille Menchavez",
             title: "Web Developer, Channelfix",
-            bio: "",
+            bio: "Julia currently works in ChannelFix as a backend web developer and lead for one of the projects. Outside of work, she and her friends have also started an initiative to give tech talks to students. She is a graduate of BS Computer Science from UP Cebu.",
             sm: {
                 gp: "",
                 fb: "",
@@ -103,7 +93,7 @@ var Data = {
         "jeffrey-go": {
             name: "Jeffrey Go",
             title: "",
-            bio: "",
+            bio: "iOS + Python + UX/UI Front-end Developer of CommerceSocial",
             sm: {
                 gp: "",
                 fb: "",
@@ -113,7 +103,7 @@ var Data = {
         "john-irvin-estiamba": {
             name: "John Irvin Estiamba",
             title: "",
-            bio: "",
+            bio: "Currently, John is a Software Engineer at Kyocera Document Solutions Development Philippines, Inc.. A former Google Student Ambassador for South East Asia and a BS Information Technology",
             sm: {
                 gp: "",
                 fb: "",
@@ -123,7 +113,7 @@ var Data = {
         "brian-tan-seng": {
             name: "Brian Tan Seng",
             title: "",
-            bio: "",
+            bio: "Brian aims to solve socio-economic problems through technology in the fields of IT and Renewable Energy through business. Over a decade of experience in the startup world with 98Labs Inc. and his other startups. As a CEO of 98Labs and a Co-Founder of CleverHeat Clean Technology Solutions, he leads the lean startup practice in the company, leads the business development, partnership formation and growth hacking activities.",
             sm: {
                 gp: "",
                 fb: "",
@@ -132,7 +122,7 @@ var Data = {
         },
         "mike-santos": {
             name: "Mike Santos",
-            title: "",
+            title: "Product and Brand Marketing - Smartphones of ASUS PH",
             bio: "",
             sm: {
                 gp: "",
@@ -199,7 +189,7 @@ var Data = {
                         id: "accenture-talk",
                         title: "Accenture Talk",
                         desc: "",
-                        speakers: ["wayne-janaban"]
+                        speakers: []
                     },
 					{
 						start: 11.20,
