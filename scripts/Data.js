@@ -159,27 +159,38 @@ var Data = {
 						speakers: []
 					},
 					{
-						start: 9.45,
-						duration: {
-							h: 0,
-							m: 30
-						},
-						id: "opening-keynote",
-						title: "Opening Keynote",
-						desc: "",
-						speakers: ["shad-roi"]
-					},
-					{
-						start: 10.15,
-						duration: {
-							h: 0,
-							m: 45
-						},
-						id: "tech-keynote",
-						title: "Tech Keynote",
-						desc: "",
-						speakers: ["albert-padin"]
-					},
+                        start: 9.15,
+                        duration: {
+                            h: 0,
+                            m: 15
+                        },
+                        id: "welcome-remarks",
+                        title: "Welcome Remarks",
+                        desc: "",
+                        speakers: ["shad-roi"]
+                    },
+                    {
+                        start: 9.30,
+                        duration: {
+                            h: 0,
+                            m: 45
+                        },
+                        id: "keynote",
+                        title: "Keynote",
+                        desc: "",
+                        speakers: ["albert-padin"]
+                    },
+                    {
+                        start: 10.15,
+                        duration: {
+                            h: 0,
+                            m: 45
+                        },
+                        id: "android-keynote",
+                        title: "Android: Keynote",
+                        desc: "",
+                        speakers: ["inaki-villar"]
+                    },
                     {
                         start: 11,
                         duration: {
@@ -191,68 +202,46 @@ var Data = {
                         desc: "",
                         speakers: []
                     },
-					{
-						start: 11.20,
-						duration: {
-							h: 0,
-							m: 20
-						},
-						id: "asus-zenfone",
-						title: "Asus Zenfone",
-						desc: "",
-						speakers: ["mike-santos"]
-					},
-					{
-						start: 11.40,
-						duration: {
-							h: 0,
-							m: 20
-						},
-						id: "event-remarks",
-						title: "Event Remarks",
-						desc: "",
-						speakers: ["chelle-gray"]
-					},
-					{
-						start: 12,
-						duration: {
-							h: 1,
-							m: 0
-						},
-						id: "lunch",
-						title: "Lunch",
-						desc: "",
-						speakers: []
-					},
-					{
-						start: 13,
-						duration: {
-							h: 4,
-							m: 0
-						},
-						id: "breakout-sessions",
-						title: "Breakout Sessions",
-						desc: "",
-						speakers: []
-					}
+                    {
+                        start: 11.20,
+                        duration: {
+                            h: 0,
+                            m: 20
+                        },
+                        id: "asus-zenphone",
+                        title: "Asus Zenphone",
+                        desc: "",
+                        speakers: ["mike-santos"]
+                    },
+                    {
+                        start: 11.40,
+                        duration: {
+                            h: 0,
+                            m: 20
+                        },
+                        id: "event-remarks",
+                        title: "Event Remarks",
+                        desc: "",
+                        speakers: ["chelle-gray"]
+                    },
+                    {
+                        start: 12,
+                        duration: {
+                            h: 1,
+                            m: 0
+                        },
+                        id: "lunch",
+                        title: "Lunch",
+                        desc: "",
+                        speakers: []
+                    }
 				]
 			},
 			"hall-a": {
 				text: "Hall A",
 				desc: [
-					{
+                    {
 						start: 13,
-						duration: {
-							h: 1,
-							m: 0
-						},
-						id: "ml-tensorflow",
-						title: "Google Cloud Machine Learning x Tensorflow",
-						desc: "",
-						speakers: ["albert-padin"]
-					},
-					{
-						start: 14,
 						duration: {
 							h: 1,
 							m: 0
@@ -262,8 +251,8 @@ var Data = {
 						desc: "",
 						speakers: ["shad-roi"]
 					},
-					{
-						start: 15,
+                    {
+						start: 14,
 						duration: {
 							h: 1,
 							m: 0
@@ -273,16 +262,27 @@ var Data = {
 						desc: "",
 						speakers: ["team-darkfire"]
 					},
+					{
+						start: 15,
+						duration: {
+							h: 1,
+							m: 0
+						},
+						id: "gsuite",
+						title: "Maximizing Work using GSuite",
+						desc: "",
+						speakers: []
+					},
                     {
                         start: 16,
                         duration: {
                             h: 1,
                             m: 0
                         },
-                        id: "firebase",
-                        title: "Creating your first app with Firebase",
+                        id: "tensorflow",
+                        title: "Google Cloud Machine Learning x Tensorflow",
                         desc: "",
-                        speakers: ["emmanuel-lodovice"]
+                        speakers: ["albert-padin"]
                     }
 				]
 			},
@@ -303,14 +303,25 @@ var Data = {
 					{
 						start: 15,
 						duration: {
-							h: 2,
+							h: 1,
 							m: 0
 						},
 						id: "app-engine",
 						title: "App Engine Workshop",
 						desc: "",
 						speakers: ["romar-patindol"]
-					}
+					},
+                    {
+                        start: 16,
+                        duration: {
+                            h: 1,
+                            m: 0
+                        },
+                        id: "firebase",
+                        title: "Firebase Workshop",
+                        desc: "",
+                        speakers: ["kevin-calingacion"]
+                    }
 				]
 			},
 			"hall-c": {
@@ -323,7 +334,7 @@ var Data = {
 							m: 0
 						},
 						id: "pwa",
-						title: "Prograssive Web Apps",
+						title: "Progressive Web Apps",
 						desc: "",
 						speakers: ["julia-menchavez", "arnelle-balane"]
 					},
