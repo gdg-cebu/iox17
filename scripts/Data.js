@@ -158,6 +158,28 @@ var Data = {
 						desc: "",
 						speakers: []
 					},
+                    {
+                        start: 9.05,
+                        duration: {
+                            h: 0,
+                            m: 5
+                        },
+                        id: "opening-video",
+                        title: "Opening Video: GDG Cebu Events",
+                        desc: "",
+                        speakers: []
+                    },
+                    {
+                        start: 9.10,
+                        duration: {
+                            h: 0,
+                            m: 5
+                        },
+                        id: "story-of-idea",
+                        title: "The story of an idea",
+                        desc: "",
+                        speakers: []
+                    },
 					{
                         start: 9.15,
                         duration: {
