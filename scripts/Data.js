@@ -129,6 +129,26 @@ var Data = {
                 fb: "",
                 tw: ""
             }
+        },
+        "kevin-calingacion": {
+            name: "Kevin Calingacion",
+            title: "Web Developer, Channelfix",
+            bio: "",
+            sm: {
+                gp: "",
+                fb: "",
+                tw: ""
+            }
+        },
+        "roel-potot": {
+            name: "Roel Potot",
+            title: "Human Resources - Recruitment, Accenture Philippines",
+            bio: "My background is a Bachelor’s in Accountancy and a CPA. Many find it interesting that someone with no technical background is able to thrive in Accenture. Technology is nothing new to me because 2 years after dabbling in an Accountancy career, I have found myself taking the road less traveled among my peers. I have been interested in systems accounting and that’s what got me to work in Technology with a Software Development company for a decade as a Business Systems Analyst and a QA Tester. I eventually shifted my career to Project Management and that’s where I began my journey in Accenture as an experienced hire 5 years ago. Since then, I have worked in projects from various Industry Groups: CIO, Health & Public Service, and recently in Digital. My recent projects in Accenture have been very challenging, but equally exciting as a Project Manager. Last year, I completed a Systems Integration roll-out of an Insurance Rewards system for the Asia Pacific region partnering with local and big insurance companies including the Philippines. My recent project is with Digital involving a global E-commerce web roll-out for an global Electronics company",
+            sm: {
+                gp: "",
+                fb: "",
+                tw: ""
+            }
         }
 	},
 	schedule: {
@@ -222,7 +242,7 @@ var Data = {
                         id: "accenture-talk",
                         title: "Accenture Talk",
                         desc: "",
-                        speakers: []
+                        speakers: ["roel-potot"]
                     },
                     {
                         start: 11.20,
