@@ -31,7 +31,7 @@ var Data = {
             }
         },
         "team-darkfire": {
-            name: "Team DarkFire, USC",
+            name: "Team DarkFire, Cebu",
             title: "",
             bio: "",
             sm: {
@@ -73,7 +73,7 @@ var Data = {
         "julia-menchavez": {
             name: "Julia Camille Menchavez",
             title: "Web Developer, Channelfix",
-            bio: "Julia currently works in ChannelFix as a backend web developer and lead for one of the projects. Outside of work, she and her friends have also started an initiative to give tech talks to students. She is a graduate of BS Computer Science from UP Cebu.",
+            bio: "Julia is a web developer at ChannelFix.com, a Cebu-based startup focused on building a unique video tournament platform. She is also a lecturer at the Computer Science department of the University of the Philippines Cebu.",
             sm: {
                 gp: "",
                 fb: "",
