@@ -83,7 +83,7 @@ var Data = {
         "arnelle-balane": {
             name: "Arnelle Balane",
             title: "Web Developer, Channelfix",
-            bio: "",
+            bio: "Arnelle is a Web Developer at ChannelFix.com, a Cebu-based startup focused on building a unique video tournament platform. He is also a lecturer at the Computer Science department of the University of the Philippines Cebu. He loves Javascript and the Web, and enjoys experimenting with new Web technologies.",
             sm: {
                 gp: "",
                 fb: "",
