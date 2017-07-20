@@ -149,6 +149,46 @@ var Data = {
                 fb: "",
                 tw: ""
             }
+        },
+        "dave-marcial": {
+            name: "Dr. Dave Marcial",
+            title: "Silliman University",
+            bio: "",
+            sm: {
+                gp: "",
+                fb: "",
+                tw: ""
+            }
+        },
+        "rome-nicolas": {
+            name: "Rome Nicolas",
+            title: "Digital Marketing Strategist, Shopcast",
+            bio: "",
+            sm: {
+                gp: "",
+                fb: "",
+                tw: ""
+            }
+        },
+        "franchette-camoro": {
+            name: "Franchette Camoro",
+            title: "Full Stack Developer, Symph",
+            bio: "",
+            sm: {
+                gp: "",
+                fb: "",
+                tw: ""
+            }
+        },
+        "arth-lim-chiu": {
+            name: "Arth Lim Chiu",
+            title: "Android Developer, Symph",
+            bio: "",
+            sm: {
+                gp: "",
+                fb: "",
+                tw: ""
+            }
         }
 	},
 	schedule: {
@@ -421,7 +461,7 @@ var Data = {
 				]
 			}
 		},
-		cavite: {
+		dumaguete: {
 			"agenda": {
 				text: "Agenda",
 				desc: [
@@ -432,7 +472,7 @@ var Data = {
 							m: 0
 						},
 						id: "",
-						title: "Check-in",
+						title: "Registration",
 						desc: "",
 						speakers: []
 					},
@@ -442,10 +482,10 @@ var Data = {
 							h: 0,
 							m: 15
 						},
-						id: "welcome-remarks",
-						title: "Welcome Remarks",
+						id: "introduction",
+						title: "Introduction",
 						desc: "",
-						speakers: ["adam-baguyo", "jonah-mananghaya"]
+						speakers: ["dave-marcial"]
 					},
 					{
 						start: 9.15,
@@ -454,223 +494,109 @@ var Data = {
 							m: 30
 						},
 						id: "keynote",
-						title: "Keynote",
+						title: "Keynote Highlights",
 						desc: "",
-						speakers: ["ralph-regalado"]
+						speakers: ["shad-roi"]
 					},
 					{
 						start: 9.45,
 						duration: {
-							h: 0,
-							m: 15
+							h: 1,
+							m: 0
 						},
-						id: "io16-experience",
-						title: "Google I/O 2016 Experience",
+						id: "google-assistant",
+						title: "Effortless Tasks with Google Assistant",
 						desc: "",
-						speakers: ["cristine-chen"]
-					},
-					{
-						start: 10,
-						duration: {
-							h: 0,
-							m: 45
-						},
-						id: "new-android",
-						title: "What's new in Android?",
-						desc: "",
-						speakers: ["jomar-tigcal"]
+						speakers: ["franchette-camoro"]
 					},
 					{
 						start: 10.45,
 						duration: {
-							h: 0,
-							m: 30
+							h: 1,
+							m: 0
 						},
-						id: "wearable-tech",
-						title: "Wearable Technology",
+						id: "kotlin-intro",
+						title: "Android: Introduction to Kotlin",
 						desc: "",
-						speakers: ["josan-astrid-dometita"]
-					},
-					{
-						start: 11.15,
-						duration: {
-							h: 0,
-							m: 30
-						},
-						id: "",
-						title: "App Demo",
-						desc: "",
-						speakers: ["juvar-abrera"]
+						speakers: ["arth-lim-chiu"]
 					},
 					{
 						start: 11.45,
 						duration: {
 							h: 0,
-							m: 30
+							m: 15
 						},
-						id: "",
-						title: "Sponsors' Talk",
+						id: "open-forum",
+						title: "Open Forum",
 						desc: "",
 						speakers: []
 					},
 					{
-						start: 12.15,
+						start: 12,
+						duration: {
+							h: 1,
+							m: 0
+						},
+						id: "lunch",
+						title: "Lunch Break",
+						desc: "",
+						speakers: []
+					},
+					{
+						start: 1,
+						duration: {
+							h: 1,
+							m: 0
+						},
+						id: "gae-intro",
+						title: "Introduction to Google App Engine",
+						desc: "",
+						speakers: ["romar-patindol"]
+					},
+					{
+						start: 2,
 						duration: {
 							h: 0,
 							m: 45
 						},
-						id: "",
-						title: "Lunch",
+						id: "google-productivity",
+						title: "Google Productivity Tools",
 						desc: "",
-						speakers: []
+						speakers: ["rome-nicolas"]
 					},
 					{
-						start: 13,
-						duration: {
-							h: 3,
-							m: 30
-						},
-						id: "",
-						title: "Breakout Sessions",
-						desc: "",
-						speakers: []
-					},
-					{
-						start: 16.30,
-						duration: {
-							h: 0,
-							m: 30
-						},
-						id: "",
-						title: "Closing",
-						desc: "",
-						speakers: []
-					}
-				]
-			},
-			"talks": {
-				text: "Talks",
-				desc: [
-					{
-						start: 13,
+						start: 2.45,
 						duration: {
 							h: 0,
 							m: 45
 						},
-						id: "machine-learning",
-						title: "Introduction to Machine Learning",
+						id: "polymer-intro",
+						title: "Introduction to Polymer",
 						desc: "",
-						speakers: ["ralph-regalado"]
+						speakers: ["jeffrey-go"]
 					},
 					{
-						start: 13.45,
+						start: 3.30,
 						duration: {
 							h: 0,
-							m: 45
+							m: 15
 						},
-						id: "big-query",
-						title: "Google BigQuery + Cloud DataLab",
-						desc: "",
-						speakers: ["ralph-regalado"]
-					},
-					{
-						start: 14.30,
-						duration: {
-							h: 0,
-							m: 30
-						},
-						id: "",
-						title: "Break",
+						id: "open-forum-2",
+						title: "Open Forum",
 						desc: "",
 						speakers: []
 					},
-					{
-						start: 15,
-						duration: {
-							h: 1,
-							m: 30
-						},
-						id: "design-thinking",
-						title: "Design Thinking",
-						desc: "",
-						speakers: ["cristine-chen"]
-					}
-				]
-			},
-			"iot": {
-				text: "IoT",
-				desc: [
-					{
-						start: 13,
-						duration: {
-							h: 1,
-							m: 30
-						},
-						id: "gemma-kit",
-						title: "gemma-kit",
-						desc: "",
-						speakers: ["josan-astrid-dometita"]
-					},
-					{
-						start: 14.30,
-						duration: {
-							h: 0,
-							m: 30
-						},
-						id: "",
-						title: "Break",
-						desc: "",
-						speakers: []
-					},
-					{
-						start: 15,
-						duration: {
-							h: 1,
-							m: 30
-						},
-						id: "firebase",
-						title: "Codelabs: Firebase for Web",
-						desc: "",
-						speakers: ["jielynn-diroy"]
-					}
-				]
-			},
-			"mobile-web": {
-				text: "Mobile + Web",
-				desc: [
-					{
-						start: 13,
-						duration: {
-							h: 1,
-							m: 30
-						},
-						id: "android-n",
-						title: "Codelabs: Android Nougat",
-						desc: "",
-						speakers: ["jomar-tigcal"]
-					},
-					{
-						start: 14.30,
-						duration: {
-							h: 0,
-							m: 30
-						},
-						id: "",
-						title: "Break",
-						desc: "",
-						speakers: []
-					},
-					{
-						start: 15,
-						duration: {
-							h: 1,
-							m: 30
-						},
-						id: "pwa",
-						title: "Codelabs: Progressive Web App",
-						desc: "",
-						speakers: ["juvar-abrera"]
-					}
+                    {
+                        start: 3.45,
+                        duration: {
+                            h: 0,
+                            m: 15
+                        },
+                        id: "closing",
+                        title: "Event Closing",
+                        desc: "Giving of Certificates to Speakers / Group Picture",
+                        speakers: []
+                    }
 				]
 			}
 		},
