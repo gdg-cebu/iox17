@@ -83,7 +83,7 @@ var Data = {
         "arnelle-balane": {
             name: "Arnelle Balane",
             title: "Web Developer, Channelfix",
-            bio: "Arnelle is a Web Developer at ChannelFix.com, a Cebu-based startup focused on building a unique video tournament platform. He is also a lecturer at the Computer Science department of the University of the Philippines Cebu. He loves Javascript and the Web, and enjoys experimenting with new Web technologies.",
+            bio: "Arnelle is a Web Developer at ChannelFix.com, a Cebu-based startup focused on building a unique video tournament platform. He is also a lecturer at the Computer Science department of the University of the Philippines Cebu. He loves Javascript and the Web, enjoys experimenting with new Web technologies, and would work for stickers.",
             sm: {
                 gp: "",
                 fb: "",
@@ -183,6 +183,26 @@ var Data = {
         "arth-lim-chiu": {
             name: "Arth Lim Chiu",
             title: "Android Developer, Symph",
+            bio: "",
+            sm: {
+                gp: "",
+                fb: "",
+                tw: ""
+            }
+        },
+        "jonathan-josol": {
+            name: "Jonathan Josol",
+            title: "Google",
+            bio: "Jonathan Joson has a decade's worth of experience in digital marketing. He has worked with the country's largest consumer and finance brands to help reach millions of Filipinos, and most recently was with Google Philippines to help the country's largest banks and airlines help get real business results from digital marketing. He recently joined Eden Holdings as an Entrepreneur-in-Residence, dreaming of creating a Filipino unicorn.",
+            sm: {
+                gp: "",
+                fb: "",
+                tw: ""
+            }
+        },
+        "jermaine-dilao": {
+            name: "Jermaine Dilao",
+            title: "Full Stack Developer, Symph",
             bio: "",
             sm: {
                 gp: "",
@@ -600,34 +620,34 @@ var Data = {
 				]
 			}
 		},
-		laguna: {
+		leyte: {
 			"agenda": {
 				text: "Agenda",
 				desc: [
 					{
-						start: 8,
-						duration: {
-							h: 1,
-							m: 0
-						},
-						id: "",
-						title: "Check-in",
-						desc: "",
-						speakers: []
-					},
-					{
-						start: 9,
+						start: 12.30,
 						duration: {
 							h: 0,
 							m: 30
 						},
-						id: "welcome-remarks",
-						title: "Welcome Remarks",
+						id: "registration",
+						title: "Registration",
 						desc: "",
-						speakers: ["ralph-regalado"]
+						speakers: []
 					},
+                    {
+                        start: 13,
+                        duration: {
+                            h: 0,
+                            m: 15
+                        },
+                        id: "opening-remarks",
+                        title: "Opening Remarks",
+                        desc: "",
+                        speakers: ["shad-roi"]
+                    },
 					{
-						start: 9.30,
+						start: 13.15,
 						duration: {
 							h: 0,
 							m: 45
@@ -635,236 +655,84 @@ var Data = {
 						id: "keynote",
 						title: "Keynote",
 						desc: "",
-						speakers: ["johnny-benitez"]
+						speakers: ["jonathan-josol"]
 					},
 					{
-						start: 10.15,
-						duration: {
-							h: 0,
-							m: 30
-						},
-						id: "io16-experience",
-						title: "Google I/O 2016 Experience",
-						desc: "",
-						speakers: ["cristine-chen"]
-					},
-					{
-						start: 10.45,
-						duration: {
-							h: 0,
-							m: 30
-						},
-						id: "new-android",
-						title: "What's new in Android?",
-						desc: "",
-						speakers: ["jomar-tigcal"]
-					},
-					{
-						start: 11.15,
-						duration: {
-							h: 0,
-							m: 30
-						},
-						id: "wearable-tech",
-						title: "Wearable Technology",
-						desc: "",
-						speakers: ["josan-astrid-dometita"]
-					},
-					{
-						start: 11.45,
-						duration: {
-							h: 0,
-							m: 30
-						},
-						id: "",
-						title: "Sponsors' Talk",
-						desc: "",
-						speakers: []
-					},
-					{
-						start: 12.15,
+						start: 14,
 						duration: {
 							h: 0,
 							m: 45
 						},
-						id: "",
-						title: "Lunch",
-						desc: "",
-						speakers: []
-					},
-					{
-						start: 13,
-						duration: {
-							h: 3,
-							m: 30
-						},
-						id: "",
-						title: "Breakout Sessions",
-						desc: "",
-						speakers: []
-					},
-					{
-						start: 16.30,
-						duration: {
-							h: 0,
-							m: 30
-						},
-						id: "",
-						title: "Closing",
-						desc: "",
-						speakers: []
-					}
-				]
-			},
-			"talks": {
-				text: "Talks",
-				desc: [
-					{
-						start: 13,
-						duration: {
-							h: 1,
-							m: 30
-						},
-						id: "bigquery",
-						title: "Google Cloud Platform: BigQuery",
-						desc: "",
-						speakers: ["ralph-regalado"]
-					},
-					{
-						start: 14.30,
-						duration: {
-							h: 0,
-							m: 30
-						},
-						id: "",
-						title: "Break",
-						desc: "",
-						speakers: []
-					},
-					{
-						start: 15,
-						duration: {
-							h: 1,
-							m: 30
-						},
-						id: "design-thinking",
-						title: "Design Thinking",
-						desc: "",
-						speakers: ["cristine-chen"]
-					}
-				]
-			},
-			"web": {
-				text: "Web",
-				desc: [
-					{
-						start: 13,
-						duration: {
-							h: 1,
-							m: 30
-						},
-						id: "polymer",
-						title: "Polymer",
-						desc: "",
-						speakers: ["toni-jan-keith-monserrat"]
-					},
-					{
-						start: 14.30,
-						duration: {
-							h: 0,
-							m: 30
-						},
-						id: "",
-						title: "Break",
-						desc: "",
-						speakers: []
-					},
-					{
-						start: 15,
-						duration: {
-							h: 1,
-							m: 30
-						},
 						id: "firebase",
-						title: "Codelabs: Firebase for Web",
+						title: "Firebase",
 						desc: "",
-						speakers: ["jielynn-diroy"]
-					}
-				]
-			},
-			"mobile-vr": {
-				text: "Mobile + VR",
-				desc: [
-					{
-						start: 13,
-						duration: {
-							h: 1,
-							m: 30
-						},
-						id: "android-n",
-						title: "Codelabs: Android Nougat",
-						desc: "",
-						speakers: ["jomar-tigcal"]
+						speakers: ["arnelle-balane"]
 					},
 					{
-						start: 14.30,
+						start: 14.45,
+						duration: {
+							h: 0,
+							m: 45
+						},
+						id: "android",
+						title: "Android",
+						desc: "",
+						speakers: ["jermaine-dilao"]
+					},
+					{
+						start: 15.30,
+						duration: {
+							h: 0,
+							m: 45
+						},
+						id: "google-assistant",
+						title: "Google Assistant",
+						desc: "",
+						speakers: ["franchette-camoro"]
+					},
+					{
+						start: 16.15,
+						duration: {
+							h: 0,
+							m: 45
+						},
+						id: "tensorflow-ml",
+						title: "Tensorflow + Machine Learning",
+						desc: "",
+						speakers: ["albert-padin"]
+					},
+					{
+						start: 17,
+						duration: {
+							h: 0,
+							m: 15
+						},
+						id: "open-forum",
+						title: "Open Forum",
+						desc: "",
+						speakers: []
+					},
+                    {
+                        start: 17.15,
+                        duration: {
+                            h: 0,
+                            m: 15
+                        },
+                        id: "closing-remarks",
+                        title: "Closing Remarks",
+                        desc: "",
+                        speakers: []
+                    },
+					{
+						start: 17.30,
 						duration: {
 							h: 0,
 							m: 30
 						},
-						id: "",
-						title: "Break",
-						desc: "",
+						id: "closing",
+						title: "Event Closing",
+						desc: "Giving of certificates to speakers, group picture.",
 						speakers: []
-					},
-					{
-						start: 15,
-						duration: {
-							h: 1,
-							m: 30
-						},
-						id: "daydream",
-						title: "Codelabs: Google Daydream",
-						desc: "",
-						speakers: ["adrian-vincent-tayag"]
-					}
-				]
-			},
-			"startups-iot": {
-				text: "Startups + IoT",
-				desc: [
-					{
-						start: 13,
-						duration: {
-							h: 1,
-							m: 30
-						},
-						id: "startups",
-						title: "Google Technologies for Startups",
-						desc: "",
-						speakers: ["benj-tupas"]
-					},
-					{
-						start: 14.30,
-						duration: {
-							h: 0,
-							m: 30
-						},
-						id: "",
-						title: "Break",
-						desc: "",
-						speakers: []
-					},
-					{
-						start: 15,
-						duration: {
-							h: 1,
-							m: 30
-						},
-						id: "gemma-kit",
-						title: "Gemma Kit",
-						desc: "",
-						speakers: ["josan-astrid-dometita"]
 					}
 				]
 			}
