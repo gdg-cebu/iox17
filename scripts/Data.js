@@ -190,8 +190,8 @@ var Data = {
                 tw: ""
             }
         },
-        "jonathan-josol": {
-            name: "Jonathan Josol",
+        "jonathan-joson": {
+            name: "Jonathan Joson",
             title: "Google",
             bio: "Jonathan Joson has a decade's worth of experience in digital marketing. He has worked with the country's largest consumer and finance brands to help reach millions of Filipinos, and most recently was with Google Philippines to help the country's largest banks and airlines help get real business results from digital marketing. He recently joined Eden Holdings as an Entrepreneur-in-Residence, dreaming of creating a Filipino unicorn.",
             sm: {
@@ -655,7 +655,7 @@ var Data = {
 						id: "keynote",
 						title: "Keynote",
 						desc: "",
-						speakers: ["jonathan-josol"]
+						speakers: ["jonathan-joson"]
 					},
 					{
 						start: 14,
