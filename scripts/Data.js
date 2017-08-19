@@ -721,7 +721,7 @@ var Data = {
                         id: "closing-remarks",
                         title: "Closing Remarks",
                         desc: "",
-                        speakers: []
+                        speakers: ["chelle-gray"]
                     },
 					{
 						start: 17.30,
